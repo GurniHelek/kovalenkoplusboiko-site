@@ -1,4 +1,4 @@
-Сайт программиста
+Сайт свадебная открытка
 ===============
 
-http://habrahabr.ru/post/159631/
+http://kovalenkoplusboiko.tk
