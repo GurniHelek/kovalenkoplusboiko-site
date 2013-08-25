@@ -12,6 +12,9 @@ app.configure(function() {
 app.get('/', function(req, res){          // Обрабатываем запрос корневой страницы "/"
     res.render('index.html');
 });
+app.get('/', function(req, res){          // Обрабатываем запрос корневой страницы "/"
+    res.render('guests.html');
+});
 
 var port = process.env.PORT || 5000;       
 app.listen(port)                           // Запускаем сервер на 5000 порту, если не указана переменная окружения "port" 
