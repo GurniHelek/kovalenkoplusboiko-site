@@ -12,7 +12,7 @@ app.configure(function() {
 app.get('/', function(req, res){          // Обрабатываем запрос корневой страницы "/"
     res.render('index.html');
 });
-app.get('/', function(req, res){          // Обрабатываем запрос корневой страницы "/"
+app.get('/guests', function(req, res){          // Обрабатываем запрос корневой страницы "/"
     res.render('guests.html');
 });
 
