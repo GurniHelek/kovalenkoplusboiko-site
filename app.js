@@ -12,8 +12,11 @@ app.configure(function() {
 app.get('/', function(req, res){          // Обрабатываем запрос корневой страницы "/"
     res.render('index.html');
 });
-app.get('/guests', function(req, res){          // Обрабатываем запрос корневой страницы "/"
+app.get('/guests', function(req, res){          
     res.render('guests.html');
+});
+app.get('/contacts', function(req, res){          
+    res.render('contacts.html');
 });
 
 var port = process.env.PORT || 5000;       
